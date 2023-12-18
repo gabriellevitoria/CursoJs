@@ -22,7 +22,7 @@ for ( let i = 0; i < elements.length; i++) {
     const {tag, texto} = elements[i];
     const elemento = document.createElement(tag);
     elemento.textContent = texto;
-    div.appendChild(elemento);
+    div.appendChild(elemento); //nessa tag adiciona um filho
 
 }
 
